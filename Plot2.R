@@ -1,5 +1,5 @@
 source("load_data.R")
-
+ 
 plot2 <- function(data=NULL) {
     if(is.null(data))
         data <- load_data()
