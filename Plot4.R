@@ -18,7 +18,7 @@ df$Sub_metering_1 <- as.numeric(as.character(df$Sub_metering_1))
     plot(data$Time, data$Global_active_power,
          type="l",
          xlab="",
-         ylab="Global Active Power")
+         ylab="Global Active Power") 
     # 2
     plot(data$Time, data$Voltage, type="l",
          xlab="datetime", ylab="Voltage")
