@@ -1,7 +1,7 @@
 source("load_data.R")
 
 plot3 <- function(data=NULL) {
-    if(is.null(data))
+    if(is.null(data)) 
         data <- load_data()
 
     df$Sub_metering_1 <- as.numeric(as.character(df$Sub_metering_1))
